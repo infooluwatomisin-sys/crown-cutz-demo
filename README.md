@@ -1,39 +1,23 @@
-# Hi, I'm Tomisin
+# Crown Cutz Barbershop (Demo)
 
-**Website designer for small businesses and coaches.** I build clean, mobile friendly websites and landing pages that turn visitors into bookings, plus sales funnels for your offers.
+A demo website for a fictional barbershop, designed and built by **Tomisin (Tomhi Pro)**.
 
-**Not sure yet? I make you a free draft first.** You see your new site before you pay anything.
+**Live demo:** https://infooluwatomisin-sys.github.io/crown-cutz-demo/
 
-## What I build
+## What it shows
 
-| Service | Starting at |
-|---|---|
-| Landing page (one page, booking or lead focused) | $100 |
-| Business website (multi page) | $250 |
-| Sales funnel (landing, offer, checkout, thank you) | $400 |
+- Clear hero with booking buttons above the fold
+- Services with simple, honest pricing
+- Photo gallery and sample reviews section
+- Booking call to action and contact details with a map
+- Fully responsive with a mobile menu
 
-Every project is responsive on phone, tablet and desktop, fast to load, and set up so clients can contact or book you in one tap.
+## Want a site like this for your business?
 
-## Live demos
-
-- **Crown Cutz Barbershop** (demo): https://infooluwatomisin-sys.github.io/crown-cutz-demo/
-- **Local Business Landing Template** (free, open source): https://infooluwatomisin-sys.github.io/local-business-landing-template/
-- **Coach website designs**: https://tomhipro.netlify.app
-
-## How it works
-
-1. **Free draft.** Tell me about your business and I design a first version for you.
-2. **Feedback.** We adjust colors, text and photos until it feels like you.
-3. **Launch.** I build it, connect your booking or payment tools and put it live.
-
-## Tools
-
-HTML, CSS, JavaScript, Netlify, GitHub Pages, booking and payment integrations (Booksy, Square, Calendly, Stripe)
-
-## Work with me
+I make you a free draft first, so you see it before you pay anything. Landing pages from $100.
 
 - Portfolio: https://tomhipro.netlify.app
 - Email: info.oluwatomisin@gmail.com
 - Discord: tomhipro
 
-Available worldwide, working remotely.
+Photos are free stock images from Unsplash. Crown Cutz is a fictional business used for demonstration only.

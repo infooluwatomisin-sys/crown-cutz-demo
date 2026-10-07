@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crown Cutz Barbershop | Demo website by Tomhi Pro</title>
+  <meta name="description" content="Demo website for a fictional barbershop, designed by Tomhi Pro.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    :root { --brand:#111111; --brand-dark:#000000; --accent:#c9a24b; --bg-alt:#f6f3ee; }
+    .demo-bar { background:#c9a24b; color:#111; text-align:center; font-size:.85rem; font-weight:600; padding:8px 16px; }
+    .demo-bar a { text-decoration:underline; }
+    .logo span { color: var(--accent); }
+    .hero { background: linear-gradient(180deg, #f6f3ee, #fff); }
+    .eyebrow { color:#8a6a22; }
+    .hero__image { background-image:url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=70'); background-size:cover; background-position:center; }
+    .gallery__item:nth-child(1){ background-image:url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=600&q=70'); }
+    .gallery__item:nth-child(2){ background-image:url('https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=600&q=70'); }
+    .gallery__item:nth-child(3){ background-image:url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=70'); }
+    .gallery__item:nth-child(4){ background-image:url('https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=600&q=70'); }
+    .gallery__item:nth-child(5){ background-image:url('https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=600&q=70'); }
+    .gallery__item:nth-child(6){ background-image:url('https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=600&q=70'); }
+    .cta { background:#111; }
+    .credit { background:#0b0b0b; color:#bbb; text-align:center; padding:14px; font-size:.85rem; }
+    .credit a { color:#c9a24b; font-weight:600; }
+  </style>
+</head>
+<body>
+
+  <div class="demo-bar">Demo website for a fictional business, designed by Tomhi Pro. Want one like this for your business? <a href="https://tomhipro.netlify.app" target="_blank" rel="noopener">Get a free draft</a></div>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="logo">Crown<span>Cutz</span></a>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Visit</a>
+        <a href="#book" class="btn btn--small">Book now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow">Walk ins welcome &middot; Open 7 days</p>
+        <h1>Sharp fades. Clean lines. Zero wait when you book.</h1>
+        <p class="lead">Crown Cutz is a neighborhood barbershop for men and kids who want a cut that looks as good on day ten as it does on day one.</p>
+        <div class="hero__cta">
+          <a href="#book" class="btn">Book your cut</a>
+          <a href="#services" class="btn btn--ghost">See prices</a>
+        </div>
+        <ul class="trust">
+          <li><strong>12</strong> years cutting</li>
+          <li><strong>4</strong> master barbers</li>
+          <li><strong>7 days</strong> a week</li>
+        </ul>
+      </div>
+      <div class="hero__image" role="img" aria-label="Barber giving a client a fresh fade"></div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section__title">Services and prices</h2>
+      <p class="section__sub">No surprises. What you see is what you pay.</p>
+      <div class="grid grid--3">
+        <article class="card">
+          <h3>Classic cut</h3>
+          <p>Scissor or clipper cut, styled and finished with a hot towel.</p>
+          <p class="price">$30</p>
+        </article>
+        <article class="card card--featured">
+          <span class="badge">Most booked</span>
+          <h3>Skin fade + beard</h3>
+          <p>Precision fade, beard shape up and straight razor line up.</p>
+          <p class="price">$45</p>
+        </article>
+        <article class="card">
+          <h3>Kids cut</h3>
+          <p>Patient barbers, clean cuts, ages 12 and under.</p>
+          <p class="price">$22</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="gallery">
+    <div class="container">
+      <h2 class="section__title">Fresh from the chair</h2>
+      <p class="section__sub">A few recent cuts. Follow along on Instagram for daily work.</p>
+      <div class="gallery">
+        <div class="gallery__item" role="img" aria-label="Barbershop interior"></div>
+        <div class="gallery__item" role="img" aria-label="Fade haircut"></div>
+        <div class="gallery__item" role="img" aria-label="Barber at work"></div>
+        <div class="gallery__item" role="img" aria-label="Beard trim"></div>
+        <div class="gallery__item" role="img" aria-label="Barber tools"></div>
+        <div class="gallery__item" role="img" aria-label="Finished haircut"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reviews">
+    <div class="container">
+      <h2 class="section__title">What clients say</h2>
+      <p class="section__sub">Sample reviews for this demo. Your real Google reviews go here.</p>
+      <div class="grid grid--3">
+        <blockquote class="review">
+          <p>"Best fade I have had in years. Booked online, sat down on time, out in 30 minutes."</p>
+          <footer>Sample review</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>"They are great with my son. He actually looks forward to haircuts now."</p>
+          <footer>Sample review</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>"Clean shop, friendly barbers and the hot towel finish is a nice touch."</p>
+          <footer>Sample review</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="book">
+    <div class="container cta__inner">
+      <div>
+        <h2>Skip the wait. Book in 30 seconds.</h2>
+        <p>Pick your barber, pick your time, show up fresh.</p>
+      </div>
+      <a href="#book" class="btn btn--light">Book now</a>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container grid grid--2">
+      <div>
+        <h2 class="section__title section__title--left">Visit the shop</h2>
+        <ul class="info">
+          <li><strong>Address</strong><span>101 Example Street, Your City</span></li>
+          <li><strong>Phone</strong><span>(000) 000 0000</span></li>
+          <li><strong>Hours</strong><span>Mon to Sat 9am to 8pm, Sun 10am to 5pm</span></li>
+          <li><strong>Instagram</strong><span>@crowncutz</span></li>
+        </ul>
+      </div>
+      <div class="map">
+        <iframe title="Map" loading="lazy" src="https://www.google.com/maps?q=barbershop&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Crown Cutz (fictional demo business).</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+  <div class="credit">Website designed by <a href="https://tomhipro.netlify.app" target="_blank" rel="noopener">Tomhi Pro</a>. Free draft first, landing pages from $100.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
